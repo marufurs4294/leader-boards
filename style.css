@@ -1,0 +1,36 @@
+body{
+    
+    background-color: rgb(234, 227, 246);
+}
+.main{
+    background-color: #FFF;
+   
+
+}
+header{
+    background-color: blueviolet;
+}
+hr{
+    padding: 1px;
+    margin-top: 30px;
+}
+.section-title{
+    color: blueviolet;
+}
+a{
+    color: blueviolet;
+   
+}
+.filled-star{
+    color: rgb(239, 187, 13);
+}
+.unfilled-star{
+    color: gray;
+}
+
+
+@media(max-width:300px){
+    .brand-ambasador{
+        display: none;
+    }
+}
