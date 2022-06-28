@@ -35,7 +35,7 @@
                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Works</a>
+                    <a class="nav-link" href="#latest-course" id="#latest-course">Works</a>
                   </li>
                   <li class="nav-item ">
                     <a class="nav-link brand-ambasador" href="#"><img src="images/icons/profile.png" alt=""></a>
@@ -54,27 +54,27 @@
   <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 d-flex justify-content-center gy-5">
     
     <div class="col d-flex align-items-center   ">
-      <img width="50px"  class="" src="images/players/player-1.png" alt="">
+      <img width="50px"   src="images/players/player-1.png" alt="">
       <h3 class=" text-dark ms-2">Jhon Smith</h3>
     </div>
     
     <div class="col d-flex align-items-center   ">
-      <img width="50px"  class="" src="images/players/player-2.png" alt="">
+      <img width="50px"   src="images/players/player-2.png" alt="">
       <h3 class=" text-dark ms-2">Pro Rasel</h3>
     </div>
     
     <div class="col d-flex align-items-center   ">
-      <img width="50px"  class="" src="images/players/player-3.png" alt="">
+      <img width="50px"   src="images/players/player-3.png" alt="">
       <h3 class=" text-dark ms-2">Devid luca</h3>
     </div>
     
     <div class="col d-flex align-items-center   ">
-      <img width="50px"  class="" src="images/players/player-4.png" alt="">
+      <img width="50px"   src="images/players/player-4.png" alt="">
       <h3 class=" text-dark ms-2">Mark Henri</h3>
     </div>
     
     <div class="col d-flex align-items-center   ">
-      <img width="50px"  class="" src="images/players/player-5.png" alt="">
+      <img width="50px"   src="images/players/player-5.png" alt="">
       <h3 class=" text-dark ms-2">Dannel xoxo</h3>
     </div>
     
@@ -98,7 +98,7 @@
   <div class="row row-cols-md-1 row-cols-sm-1 row-cols-lg-2  g-5 py-4">
 
     <div class="col d-lg-flex d-md-flex">
-      <img width="177px" src="images/blogs/blog-1.png" alt="">
+      <img width="177px" class="img-fluid" src="images/blogs/blog-1.png" alt="">
       <div class="px-lg-3 pt-2 ps-md-3">
         <h3>13 of My Favourite UI/UX Goodies</h3>
         <p  class="text-muted ">By <a class="text-decoration-none fw-bold" href=" " >Danny Sapio</a></p>
@@ -107,7 +107,7 @@
 
     
     <div class="col d-lg-flex d-md-flex">
-      <img width="177px" src="images/blogs/blog-2.png" alt="">
+      <img width="177px" class="img-fluid" src="images/blogs/blog-2.png" alt="">
       <div class="px-lg-3 pt-2 ps-md-3">
         <h3>UI cheat sheet: 
           list vs grids</h3>
@@ -117,7 +117,7 @@
 
     
     <div class="col d-lg-flex d-md-flex">
-      <img width="177px" src="images/blogs/blog-3.png" alt="">
+      <img width="177px" class="img-fluid" src="images/blogs/blog-3.png" alt="">
       <div class="px-lg-3 pt-2 ps-md-3">
         <h3>7 typography tips 
           for interface design</h3>
@@ -126,7 +126,7 @@
     </div>
     
     <div class="col d-lg-flex d-md-flex ">
-      <img width="177px" src="images/blogs/blog-4.png" alt="">
+      <img width="177px" class="img-fluid" src="images/blogs/blog-4.png" alt="">
       <div class="px-lg-3 pt-2 ps-md-3">
         <h3>Your logo is 
           copied</h3>
@@ -139,19 +139,21 @@
 </div>
 </div>
 
-<div class="top-course container w-75 px-5 py-4 main mt-4 rounded">
+<!-- Latest Course -->
+
+<div class="top-course container w-75 px-5 py-4 main mt-4 rounded" id="latest-course">
   <h2 class="section-title">Latest Course</h2>
 
-  <div class="row row-cols-sm-1 row-cols-lg-3 d-flex">
+  <div class="row row-cols-sm-1 row-cols-1 row-cols-lg-3 d-flex gy-4">
 
 <div class="col ">
-<img width="224px" src="images/courses/course-1.png" alt="">
+<img width="224px" class="img-fluid" src="images/courses/course-1.png" alt="">
 
 <div class="course-content">
   <h2>React The Complete Guide 2022</h2>
   <a href="">Reed Krakoff</a>
 </div>
-<div class="d-flex align-items-center" >
+<div class="d-flex align-items-center d-sm-block" >
 
   <div class="star-icon">
     <i class="fa-solid fa-star filled-star"></i>
@@ -162,23 +164,22 @@
   </div>
   <p class="text-muted px-2 mt-3 fw-bold">4.5</p>
 
-  <div class="bg-danger border border-2 rounded-pill fw-bold d-flex align-items-center px-2">
+  <div class="">
     <i class="fa-solid fa-clock"></i>
-    <span>1:30 hr</span>
+    <span> 1:30 hr</span>
   </div>
 </div>
     </div>
 
 
-    <div class="col">
-      <img width="224px" src="images/courses/course-1.png" alt="">
+    <div class="col ">
+      <img width="224px" class="img-fluid" src="images/courses/course-2.png" alt="">
+      
       <div class="course-content">
         <h2>React The Complete Guide 2022</h2>
         <a href="">Reed Krakoff</a>
       </div>
-      
-      
-      <div class="d-flex align-items-center" >
+      <div class="d-flex align-items-center d-sm-block" >
       
         <div class="star-icon">
           <i class="fa-solid fa-star filled-star"></i>
@@ -189,23 +190,22 @@
         </div>
         <p class="text-muted px-2 mt-3 fw-bold">4.5</p>
       
-        <div class="bg-danger border border-2 rounded-pill fw-bold d-flex align-items-center px-2">
+        <div class="">
           <i class="fa-solid fa-clock"></i>
-          <span>1:30 hr</span>
+          <span> 1:30 hr</span>
         </div>
       </div>
           </div>
     
 
-          <div class="col">
-            <img width="224px" src="images/courses/course-1.png" alt="">
-            <div class="course-content ">
-              <h2 >React The Complete Guide 2022</h2>
+          <div class="col ">
+            <img width="224px" class="img-fluid" src="images/courses/course-3.png" alt="">
+            
+            <div class="course-content">
+              <h2>React The Complete Guide 2022</h2>
               <a href="">Reed Krakoff</a>
             </div>
-            
-            
-            <div class="d-flex align-items-center" >
+            <div class="d-flex align-items-center d-sm-block" >
             
               <div class="star-icon">
                 <i class="fa-solid fa-star filled-star"></i>
@@ -216,16 +216,17 @@
               </div>
               <p class="text-muted px-2 mt-3 fw-bold">4.5</p>
             
-              <div class="bg-danger border border-2 rounded-pill fw-bold d-flex align-items-center px-2">
+              <div class="">
                 <i class="fa-solid fa-clock"></i>
-                <span>1:30 hr</span>
+                <span> 1:30 hr</span>
               </div>
             </div>
                 </div>
   
 
+</div>
 
-
+</div>
 
 
 
